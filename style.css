@@ -31,14 +31,15 @@ html, body {
 
 .title {
     color: #253756;
-    font-size: clamp(0.8rem, 1.2rem + 5vw, 1.4rem);
+    font-size: clamp(0.8rem, 1.2rem + 5vw, 1.7rem);
     font-weight: 700;
 }
 
 .text {
     color: #72777B;
-    font-size: clamp(0.6rem, 0.8rem + 5vw, 1rem);
+    font-size: clamp(0.6rem, 1rem + 5vw, 1.3rem);
     font-weight: 400;
+    margin-bottom: 2.5rem;
 }
 
 /* .attribution { 
