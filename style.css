@@ -4,24 +4,25 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 .card {
     background-color: #FFF;
-    width: 28rem;
-    height: 42rem;
+    width: clamp(10rem, 20rem + 5vw, 60rem);
+    min-height: 15rem;
     text-align: center;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400, 700;
-    font-style: normal;
     border-radius: 20px;
-    box-shadow: 1px 1px 15px #CBD6E4;
+    box-shadow: 1px 1px 25px #CBD6E4;
 }
 
 .qr-code {
-    width: 25rem;
-    border-radius: 15px;
-    margin: 25px;
+    width: clamp(8rem, 18rem + 5vw, 30rem);
+    border-radius: 10px;
+    margin: 1rem auto;
+    display: block;
 }
 
 .title, .text {
@@ -36,15 +37,16 @@ html, body {
 
 .text {
     color: #72777B;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    padding: 15px;
+    padding-top: 10px;
 }
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
